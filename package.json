@@ -2,6 +2,8 @@
   "name": "pulga",
   "version": "0.1.0",
   "private": true,
+  "main": "server/index.js",
+  "proxy": "https://localhost:4422",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
@@ -12,11 +14,12 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "massive": "^6.6.1",
+    "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^4.0.0",
     "redux": "^4.0.5",
     "redux-promise-middleware": "^6.1.2",
     "web-vitals": "^0.2.4"
