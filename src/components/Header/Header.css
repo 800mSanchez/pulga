@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

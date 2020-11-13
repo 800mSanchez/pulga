@@ -6,7 +6,7 @@ import './Header.css';
 class Header extends React.Component {
     render(){
         return <header>
-                 <h1>Pulga</h1>
+                 <h1 className="title">Pulga</h1>
                </header>
     }
 }
